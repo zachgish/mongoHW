@@ -1,0 +1,48 @@
+body { background-color: #f1f2f3 }
+      img {
+
+        margin-top: -8px;
+        margin-left: -8px;
+      }
+      #wrapper {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        /*padding-top: 5%;*/
+      }
+      #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 60%;
+        height: 500px;
+      }
+      .eachArticle {
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .titleDiv {
+
+        color: #6c6d6f;
+      }
+      ul {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #FFF;
+      }
+      #notes {
+        float: right;
+        width: 30%;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: #FCF5C7;
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
